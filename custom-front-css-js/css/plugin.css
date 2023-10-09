@@ -1,0 +1,21 @@
+li:has(.controlspam) {
+	padding: 0;
+}
+
+.controlspam {
+	opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 0;
+    z-index: -1;
+}
+
+.field-type-radio-field .jet-form-builder__label {
+	margin-bottom: 4px !important;
+}
+
+.field-type-radio-field .jet-form-builder__label label {
+	line-height: 1.5;
+}

@@ -1,0 +1,7 @@
+.hiddenOption {
+	display: none;
+}
+
+.components-button.editor-post-taxonomies__hierarchical-terms-add {
+	display: none !important;
+}
